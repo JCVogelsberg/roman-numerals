@@ -33,6 +33,13 @@ def roman_numerals (inputted_number)
   roman_numerals_array.join("")
 end
 
-puts roman_numerals(2573)
 
+puts "Please enter a number between 1 and 3999 to convert to roman numerals"
+input = gets.chomp.to_s
 
+if (input.to_i.to_s == input) && (input.to_i > 0 && input.to_i <= 3999)
+  input == input.to_i
+  puts roman_numerals(input)
+else 
+  puts "Please enter a whole number please between 1 and 3999"
+end
