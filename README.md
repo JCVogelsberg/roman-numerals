@@ -1,4 +1,4 @@
 Roman-Numerals
 ==============
 
-Converting an integer into a roman numeral (hopefully!)
+Converting an integer into a roman numeral.
